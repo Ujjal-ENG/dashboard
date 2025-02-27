@@ -9,7 +9,7 @@ export default function PlatformPage() {
   return (
     <div className="bg-[#0D1117] min-h-screen text-white">
       {/* Hero Banner */}
-      <div className="relative h-64 overflow-hidden rounded-lg mx-6 mt-6 mb-8">
+      <div className="relative rounded-[19.955px] shadow-[0px_5.701px_5.701px_0px_rgba(0,0,0,0.25),0px_0px_10.548px_0px_#0A7CFF] bg-[linear-gradient(182deg,rgba(0,0,0,0.00)_1.7%,rgba(0,0,0,0.80)_61.11%)] h-64 overflow-hidden mx-6 mt-6 mb-8">
         <Image
           src="/casino-banner.png"
           alt="Casino"
@@ -21,7 +21,7 @@ export default function PlatformPage() {
           <h1 className="text-3xl font-bold text-white mb-4">
             Profits 90% up to $200,000
           </h1>
-          <Button className="bg-blue-600 hover:bg-blue-700 w-36">
+          <Button className="inline-flex w-full max-w-[295px] px-5 py-7 items-center gap-4 rounded-[68.417px] bg-[#0A7CFF] shadow-[1.425px_1.425px_2.851px_0px_rgba(255,255,255,0.24)_inset,0px_1.425px_4.276px_0px_rgba(10,124,255,0.24),0px_2.851px_8.552px_0px_rgba(10,124,255,0.24),0px_5.701px_11.403px_0px_rgba(10,124,255,0.12),0px_22.806px_45.611px_-11.403px_rgba(10,124,255,0.48)]">
             Start Challenge
           </Button>
         </div>
@@ -41,7 +41,7 @@ export default function PlatformPage() {
           <GameCard
             title="Demo"
             description="Get the majority have suffered alteration in some form, by injected humour, or randomized"
-            color="bg-purple-600"
+            color="bg-gradient-to-r from-[#8A25DA] to-[#6E29DF]"
             image="/roulette.png"
           />
 
@@ -49,7 +49,7 @@ export default function PlatformPage() {
             title="2 Phase Challenge"
             id="8232234"
             description="Get the majority have suffered alteration in some form, by injected humour, or randomized"
-            color="bg-purple-800"
+            color="bg-gradient-to-r from-[#5743E0] to-[#6E29DF]"
             image="/slot-machine.png"
           />
 
@@ -57,7 +57,7 @@ export default function PlatformPage() {
             title="Instant Fund"
             id="8232231"
             description="Get the majority have suffered alteration in some form, by injected humour, or randomized"
-            color="bg-blue-500"
+            color="bg-gradient-to-r from-[#369CDD] to-[#6E29DF]"
             image="/money.png"
           />
         </div>

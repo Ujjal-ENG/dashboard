@@ -18,7 +18,7 @@ export default function GameCard({
   image,
 }: GameCardProps) {
   return (
-    <div className={`overflow-hidden ${color} relative`}>
+    <div className={`overflow-hidden ${color} relative rounded-2xl`}>
       <div className="p-4 relative z-10 h-full flex flex-col justify-between min-h-[220px]">
         <div>
           <h3 className="text-white text-xl font-bold mb-1">{title}</h3>
