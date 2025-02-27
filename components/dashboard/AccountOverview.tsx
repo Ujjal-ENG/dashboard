@@ -1,6 +1,6 @@
-import { Button } from '@/components/ui/button';
-import { Share, LifeBuoy } from 'lucide-react';
-import ProgressTabs from './ProgressTabs';
+import { Button } from "@/components/ui/button";
+import { LifeBuoy, Share } from "lucide-react";
+import ProgressTabs from "./ProgressTabs";
 
 export default function AccountOverview() {
   return (
@@ -11,13 +11,15 @@ export default function AccountOverview() {
             <User className="text-gray-400 h-6 w-6" />
           </div>
           <div>
-            <h1 className="text-xl font-semibold text-white">Account Overview</h1>
+            <h1 className="text-xl font-semibold text-white">
+              Account Overview
+            </h1>
             <div className="text-xs bg-blue-600 text-white px-2 py-0.5 rounded-sm inline-block mt-1">
               Challenge Account
             </div>
           </div>
         </div>
-        
+
         <div className="flex gap-2">
           <Button className="flex items-center gap-2 bg-transparent border border-gray-700 hover:bg-gray-800 text-white rounded">
             <Share className="h-4 w-4" />
@@ -32,18 +34,20 @@ export default function AccountOverview() {
           </Button>
         </div>
       </div>
-      
+
       <ProgressTabs />
-      
+
       <div className="mt-4">
-        <h2 className="text-base font-medium text-white mb-2">Challenge Account ID: 78252</h2>
-        
+        <h2 className="text-base font-medium text-white mb-2">
+          Challenge Account ID: 78252
+        </h2>
+
         <div className="flex gap-4 mb-6">
           <div className="flex items-center gap-2">
             <span className="text-gray-400 text-sm">Type:</span>
             <span className="text-blue-500 text-sm">Challenge</span>
           </div>
-          
+
           <div className="flex items-center gap-2">
             <span className="text-gray-400 text-sm">Starting Balance:</span>
             <span className="text-white text-sm">$234.4</span>

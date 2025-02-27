@@ -1,11 +1,9 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import {  ChevronLeft, MoveLeft } from 'lucide-react';
-import { Button } from '@/components/ui/button';
-import Leaderboard from '@/components/dashboard/Leaderboard';
-import GameCard from '@/components/dashboard/GameCard';
-
-
+import GameCard from "@/components/dashboard/GameCard";
+import Leaderboard from "@/components/dashboard/Leaderboard";
+import { Button } from "@/components/ui/button";
+import { ChevronLeft, MoveLeft } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function PlatformPage() {
   return (
@@ -18,7 +16,7 @@ export default function PlatformPage() {
           fill
           className="object-cover"
         />
-        
+
         <div className="absolute inset-0 bg-black/10 p-8 flex flex-col justify-center">
           <h1 className="text-3xl font-bold text-white mb-4">
             Profits 90% up to $200,000
@@ -27,7 +25,7 @@ export default function PlatformPage() {
             Start Challenge
           </Button>
         </div>
-        
+
         {/* Indicators */}
         <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
           <div className="h-2 w-2 rounded-full bg-blue-600"></div>
@@ -35,37 +33,37 @@ export default function PlatformPage() {
           <div className="h-2 w-2 rounded-full bg-white/50"></div>
         </div>
       </div>
-      
+
       <div className="px-6">
         <h2 className="text-xl font-bold mb-6">Game Accounts</h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <GameCard 
+          <GameCard
             title="Demo"
-            description="Get the majority have suffered alteration in some form, by injected humour, or randomised"
+            description="Get the majority have suffered alteration in some form, by injected humour, or randomized"
             color="bg-purple-600"
             image="/roulette.png"
           />
-          
-          <GameCard 
+
+          <GameCard
             title="2 Phase Challenge"
             id="8232234"
-            description="Get the majority have suffered alteration in some form, by injected humour, or randomised"
+            description="Get the majority have suffered alteration in some form, by injected humour, or randomized"
             color="bg-purple-800"
             image="/slot-machine.png"
           />
-          
-          <GameCard 
+
+          <GameCard
             title="Instant Fund"
             id="8232231"
-            description="Get the majority have suffered alteration in some form, by injected humour, or randomised"
+            description="Get the majority have suffered alteration in some form, by injected humour, or randomized"
             color="bg-blue-500"
             image="/money.png"
           />
         </div>
         <Leaderboard />
       </div>
-      
+
       {/* Back Button */}
       <div className="fixed bottom-6 right-6 flex gap-2">
         <Button className="rounded-full h-10 w-10 p-0 bg-gray-800 hover:bg-gray-700">
