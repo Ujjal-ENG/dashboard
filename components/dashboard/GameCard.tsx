@@ -27,11 +27,8 @@ export default function GameCard({
         </div>
 
         <div className="flex mt-4">
-          <Button
-            variant="ghost"
-            className="rounded-full bg-white/20 p-2 h-8 w-8"
-          >
-            <ChevronRight className="h-4 w-4 text-white" />
+          <Button variant="ghost" className="rounded-full bg-white p-2 h-8 w-8">
+            <ChevronRight className="h-4 w-4 text-[#0A7CFF]" />
           </Button>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import ProfileIcon from "./ProfileIcon";
 import ProgressTabs from "./ProgressTabs";
 
 export default function AccountOverview() {
@@ -6,9 +7,7 @@ export default function AccountOverview() {
     <div className="px-6 py-4">
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-4">
-          <div className="bg-gradient-to-r from-gray-800 to-gray-900 rounded-full w-12 h-12 flex items-center justify-center border border-gray-700">
-            <User className="text-gray-400 h-6 w-6" />
-          </div>
+          <ProfileIcon />
           <div>
             <h1 className="text-xl font-semibold text-white">
               Account Overview
@@ -41,15 +40,15 @@ export default function AccountOverview() {
                 <path
                   d="M30.2104 10.2702L17.973 3.07175L5.73572 10.2702V24.667L17.973 31.8655L30.2104 24.667V10.2702Z"
                   stroke="white"
-                  stroke-width="2.01556"
-                  stroke-linejoin="round"
+                  strokeWidth="2.01556"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M17.9749 16.029V21.7877M23.7337 13.1496V21.7877M12.2162 18.9084V21.7877"
                   stroke="white"
-                  stroke-width="2.01556"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2.01556"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <span>Share Sales</span>
@@ -91,77 +90,5 @@ export default function AccountOverview() {
         </div>
       </div>
     </div>
-  );
-}
-
-// User icon component
-function User(props: React.SVGProps<SVGSVGElement>) {
-  return (
-    <>
-      <svg
-        {...props}
-        xmlns="http://www.w3.org/2000/svg"
-        width="24"
-        height="24"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      >
-        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-        <circle cx="12" cy="7" r="4" />
-      </svg>
-      <svg
-        {...props}
-        xmlns="http://www.w3.org/2000/svg"
-        width="28"
-        height="32"
-        viewBox="0 0 179 131"
-        fill="none"
-      >
-        <g filter="url(#filter0_f_0_350)">
-          <path
-            d="M132.611 64.498C132.611 74.8306 135.299 87.7271 89.6011 83.2068C65.8476 83.2068 46.5916 74.8306 46.5916 64.498C46.5916 54.1654 49.2796 71.3799 92.2892 46.7117C116.043 46.7117 132.611 45.7892 132.611 64.498Z"
-            fill="url(#paint0_linear_0_350)"
-          />
-        </g>
-        <defs>
-          <filter
-            id="filter0_f_0_350"
-            x="0.521618"
-            y="0.634319"
-            width="178.189"
-            height="129.572"
-            filterUnits="userSpaceOnUse"
-            color-interpolation-filters="sRGB"
-          >
-            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-            <feBlend
-              mode="normal"
-              in="SourceGraphic"
-              in2="BackgroundImageFix"
-              result="shape"
-            />
-            <feGaussianBlur
-              stdDeviation="23.035"
-              result="effect1_foregroundBlur_0_350"
-            />
-          </filter>
-          <linearGradient
-            id="paint0_linear_0_350"
-            x1="124.546"
-            y1="46.7117"
-            x2="30.9222"
-            y2="71.4225"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stop-color="#3AA3FF" />
-            <stop offset="1" stop-color="#3ADCFF" stop-opacity="0" />
-          </linearGradient>
-        </defs>
-      </svg>
-    </>
   );
 }

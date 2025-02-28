@@ -30,9 +30,9 @@ export default function AccountInformation() {
                     <path
                       d="M11.7497 23.2104H8.87034C7.28011 23.2104 5.99097 21.9212 5.99097 20.331V8.81351C5.99097 7.22328 7.28011 5.93414 8.87034 5.93414H20.3878C21.9781 5.93414 23.2672 7.22328 23.2672 8.81351V11.6929M14.6291 28.9691H26.1466C27.7368 28.9691 29.0259 27.68 29.0259 26.0897V14.5723C29.0259 12.982 27.7368 11.6929 26.1466 11.6929H14.6291C13.0388 11.6929 11.7497 12.982 11.7497 14.5723V26.0897C11.7497 27.68 13.0388 28.9691 14.6291 28.9691Z"
                       stroke="white"
-                      stroke-width="1.43969"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.43969"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                 </Button>
@@ -61,9 +61,9 @@ export default function AccountInformation() {
                       <path
                         d="M20.2163 10.0575H10.6184C6.37778 10.0575 2.94008 13.4952 2.94008 17.7358V19.6554M20.2163 10.0575L14.4576 15.8162M20.2163 10.0575L14.4576 4.29877"
                         stroke="white"
-                        stroke-width="2.87937"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2.87937"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </span>
@@ -103,9 +103,9 @@ export default function AccountInformation() {
                       <path
                         d="M20.2163 10.0575H10.6184C6.37778 10.0575 2.94008 13.4952 2.94008 17.7358V19.6554M20.2163 10.0575L14.4576 15.8162M20.2163 10.0575L14.4576 4.29877"
                         stroke="white"
-                        stroke-width="2.87937"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2.87937"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </span>
